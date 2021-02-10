@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Movie Seat Booker</title>
+</head>
+
+<body>
+
+    <div class="main-wrapper">
+        <!-- Movie Selection -->
+        <div class="movie-wrapper">
+            <label class="movie-label">Select A Movie</label>
+            <select id="movie">
+                <option value="30" class="movie-option">Tales of the Ashanti Kingdom (GHC30)</option>
+                <option value="20" class="movie-option">The Don (GHC20)</option>
+                <option value="25" class="movie-option">Beyonce (GHC25)</option>
+                <option value="25" class="movie-option">Chelsea (GHC25)</option>
+                <option value="35" class="movie-option">Adam's Apples (GHC35)</option>
+            </select>
+        </div>
+        
+        <!-- Cinema Showcase/Key-->
+        <ul class="cinema-showcase">
+            <li class="cinema-showcase__category">
+                <div class="seat"></div>
+                <small class="category-tag">N/A</small>
+            </li>
+            <li class="cinema-showcase__category">
+                <div class="seat selected"></div>
+                <small class="category-tag">Selected</small>
+            </li>
+            <li class="cinema-showcase__category">
+                <div class="seat occupied"></div>
+                <small class="category-tag">Occupied</small>
+            </li>
+        </ul>
+        <!-- Cinema UI -->
+        <div class="cinema-ui">
+            <div class="screen"></div>
+            <div class="hall-row">
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat occupied"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+        
+            <div class="hall-row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="hall-row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat occupied"></div>
+            </div>
+            <div class="hall-row">
+                <div class="seat occupied"></div>
+                <div class="seat occupied"></div>
+                <div class="seat occupied"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="hall-row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+        </div>
+        <p class="feedback">Your total cost is GHC<span id="total">0</span> for the <span id="count">0</span> seats you have selected</p>
+    </div>
+
+
+
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
