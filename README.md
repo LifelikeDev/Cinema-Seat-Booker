@@ -7,4 +7,4 @@ This app is used for making reservations to a movie in a cinema. It includes the
 
 for each movie.
 
-The app was built with HTML, CSS & JavaScript. 
+The app was built with HTML, CSS & JavaScript following a tutorial by Brad Traversy
